@@ -1,0 +1,42 @@
+.registration-form {
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	width: 25vw;
+
+	margin: 0 auto;
+	padding: 2rem;
+	gap: 1rem;
+
+	border-radius: 2px;
+	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.success-banner {
+	background-color: #48a9f8;
+	color: #fff;
+	padding: 1rem;
+	text-align: left;
+}
+.registration-form-text {
+	font-size: 16px;
+	padding: 1rem;
+	border: none;
+	background-color: #fafafa;
+	color: #8a8a8a;
+}
+.registration-form-text::placeholder {
+	color: #8a8a8a;
+}
+
+.form-validation-error {
+	color: red;
+	text-align: left;
+	margin-bottom: 1rem;
+}
+.form-cta-btn {
+	background-color: #66bd55;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+	border: none;
+}
